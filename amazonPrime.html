@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon prime</title>
+    <style>
+        span{
+            padding: 10px;
+            margin: 30px;
+        
+        }
+        .logo{
+            font-weight: bold;
+            color: white;
+            
+        }
+        .searchicon{
+            width: 30px;
+            height: 30px; 
+            position: relative;
+            top: 10px;
+        }
+        .header{
+            background-color: rgb(3, 31, 44);
+            width: 100%;
+            height: 50px;
+        }
+        .color{
+            color: white;
+        }
+        select{
+            list-style: none;
+        }
+        .container{
+         background-color:rgb(3, 31, 44) ;
+         width: 100%;
+         height: 700px;
+        }
+        button{
+           background-color: rgb(47, 162, 244);
+           border-radius: 30px;
+           width: 200px;
+           height: 30px;
+           
+        }
+        h1, p {
+            color: white;
+            margin: 1px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="logo" >
+         prime video
+        </span>
+        <span>
+            <select id="home" name="Home">
+                <option value="homepage">Home</option>
+            </select> 
+             
+        </span>
+    
+    <span>
+        <select id="store" name="Store">
+            <option value="store">Store</option>
+        </select>   
+    </span>
+    <span class="color">Live Tv</span>
+     
+    <span>
+        <select id="categories" name="Categories">
+            <option value="categories">Categories</option>
+        </select>  
+    </span>
+    <span class="searchicon">
+        <img src="c:\Users\saiki\OneDrive\Desktop\Kishore\search_icon.png" alt="search icon" width="30px" height="30px" onclick="searchbar()">
+    </span>
+    <span  class="color">subscribe now</span>
+    <span>
+        <select id="laguages" name="EN">
+            <option value="lang">EN</option>
+        </select>  
+    </span>
+    </div>
+    <div class="container">
+      <h1>
+        Welcome to prime video
+      </h1>
+      <p>
+        join prime to watch the latest movie, TV hoes and award-winning<br>
+        amazon Originals
+      </p>
+      <span>
+      <button type="button">sign in to join prime</button>
+    </span>
+    </div>
+    
+</body>
+</html>
